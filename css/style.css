@@ -141,10 +141,28 @@ main  {
         padding: 2em 12em 0 0;
 }
 
+/* fourth section */
 h2  {
     font-size: 2.5em;
 }
 
 p  {
     padding-top: 2em;
+}
+
+.center-text  {
+    padding: 0 10em;
+    text-align: center;
+}
+
+.star  {
+     background-image: url(../img/stars.svg);
+    font-size: 1.2em;
+    display: inline-block;
+    width: 22em;
+    background-size: contain;
+}
+
+h3  {
+    margin-top: 1em;
 }
