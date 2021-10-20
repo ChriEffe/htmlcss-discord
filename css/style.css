@@ -1,0 +1,125 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html  {
+    font-size: 100%;
+    font-family: ‘Whitney’, sans-serif;
+}
+
+.clearfix::after  {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* header */
+header  {
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+/* navbar */
+nav  {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 80px;
+}
+
+.float  {
+    float: left;
+    height: 100%;
+}
+
+nav .float:first-child,
+nav .float:last-child  {
+    width: 25%;
+}
+
+nav .float:nth-child(2)  {
+    width: 50%;
+}
+
+.logo  {
+    vertical-align: middle;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu li  {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.nav-menu li:last-child  {
+    margin-right: 0;
+}
+
+.navbar a  {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-menu a:hover,
+.nav-menu a:focus,
+.nav-menu a:active  {
+    text-decoration: underline;
+}
+
+a.btn  {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 2em;
+    padding: 5px 15px;
+    line-height: 2em;
+    font-size: 0.8em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.btn:hover  {
+    color: #265ee8;
+}
+
+/* text header */
+.jumbo-text  {
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.jumbo-title  {
+    margin-bottom: 1.1em;
+}
+
+.jumbo-desk  {
+    line-height: 1.7em;
+    margin-bottom: 1.1em;
+}
+
+a.btn.big  {
+    padding: 10px 20px;
+}
+
+a.btn.dark  {
+    background-color: #23272a;
+    color: white;
+}
+
+a.btn.dark:hover,
+a.btn.dark:focus,
+a.btn.dark:active  {
+    color:  #265ee8;
+}
+
+/* main */
