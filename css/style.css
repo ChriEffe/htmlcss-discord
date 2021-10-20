@@ -157,12 +157,17 @@ p  {
 
 .star  {
      background-image: url(../img/stars.svg);
-    font-size: 1.2em;
+    font-size: 1.16em;
     display: inline-block;
-    width: 22em;
-    background-size: contain;
+    width: 30em;
 }
 
-h3  {
-    margin-top: 1em;
+h3,
+#violet {
+    margin-top: 2em;
+}
+
+#violet  {
+    background-color: #8ea1e1;
+    color: white;
 }
